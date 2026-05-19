@@ -9,10 +9,10 @@
 		{"email": "cedx@outlook.com", "homepage": "https://cedric-belin.fr", "name": "Cédric Belin"}
 	],
 	"autoload": {
-		"psr-4": {"Belin\\FreeMobile\\": "src/"}
+		"psr-4": {"Belin\\FreeMobile\\": "Sources/"}
 	},
 	"autoload-dev": {
-		"psr-4": {"Belin\\FreeMobile\\": "test/"}
+		"psr-4": {"Belin\\FreeMobile\\": "Tests/"}
 	},
 	"config": {
 		"platform-check": false
@@ -35,7 +35,7 @@
 		"phpunit/phpunit": "^13.1.10"
 	},
 	"support": {
-		"docs": "https://github.com/CedX/FreeMobile.php/tree/main/docs",
+		"docs": "https://github.com/CedX/FreeMobile.php/tree/main/Documentation",
 		"issues": "https://github.com/CedX/FreeMobile.php/issues"
 	}
 }

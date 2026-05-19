@@ -2,8 +2,8 @@
 Send SMS messages to your [Free Mobile](https://mobile.free.fr) device, in [PHP](https://www.php.net).
 
 ## Documentation
-- [User guide](https://github.com/CedX/FreeMobile.php/tree/main/docs)
-- [Examples](https://github.com/CedX/FreeMobile.php/tree/main/example)
+- [User guide](https://github.com/CedX/FreeMobile.php/tree/main/Documentation)
+- [Examples](https://github.com/CedX/FreeMobile.php/tree/main/Examples)
 
 ## Development
 - [Git repository](https://github.com/CedX/FreeMobile.php)
