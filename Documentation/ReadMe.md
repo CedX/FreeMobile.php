@@ -17,7 +17,7 @@ This will give you an identification key allowing access to the [Free Mobile](ht
 ### Get the library
 Install the latest version of **Free Mobile for PHP** with [Composer](https://getcomposer.org) package manager:
 
-```shell
+```powershell
 composer require cedx/free-mobile
 ```
 
