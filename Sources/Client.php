@@ -6,7 +6,7 @@ use Uri\Rfc3986\Uri;
 /**
  * Sends messages by SMS to a Free Mobile account.
  */
-final class Client {
+class Client {
 
 	/**
 	 * The Free Mobile account.
