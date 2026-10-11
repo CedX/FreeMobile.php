@@ -61,6 +61,15 @@ class Should {
 	}
 
 	/**
+	 * Tests whether the given sequence contains the specified value.
+	 * @param iterable<mixed> $sequence The sequence expected to contain the specified value.
+	 * @return \Closure The closure that tests whether the given sequence contains the specified value.
+	 */
+	public static function beOneOf(iterable $sequence): \Closure {
+		return static fn(mixed $expected) => Assert::assertContains($expected, $sequence);
+	}
+
+	/**
 	 * Tests whether two sequences contain equal elements in the same order.
 	 * @param iterable<mixed> $expected The sequence expected by the test.
 	 * @return \Closure The closure that tests whether the two sequences contain equal elements in the same order.
