@@ -1,5 +1,9 @@
 # Changelog
 
+## Version [2026.10.0](https://github.com/CedX/FreeMobile.php/compare/v20.0.0...v2026.10.0)
+- Removed the `final` modifier from the classes.
+- Switched to a year-based versioning.
+
 ## Version [20.0.0](https://github.com/CedX/FreeMobile.php/compare/v19.0.0...v20.0.0)
 - Breaking change: raised the required [PHP](https://www.php.net) version.
 - Breaking change: renamed the root namespace to `Belin\FreeMobile`.
