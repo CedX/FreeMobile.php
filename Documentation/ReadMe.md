@@ -32,10 +32,10 @@ use Belin\FreeMobile\Client;
 try {
   $client = new Client(account: "your account identifier", apiKey: "your API key");
   $client->sendMessage("Hello World from PHP!");
-  print "The message was sent successfully.";
+  echo "The message was sent successfully.";
 }
 catch (RuntimeException $e) {
-  print "An error occurred: {$e->getMessage()}";
+  echo "An error occurred: ", $e->getMessage();
 }
 ```
 
